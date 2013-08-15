@@ -6,9 +6,7 @@
  */
 
 #include <cstdlib>
-#include <iostream>
-#include <iomanip>
-#include <float.h>
+#include <stdio.h>
 
 
 using namespace std;
@@ -17,10 +15,8 @@ using namespace std;
  * 
  */
 int main(int argc, char** argv) {
-    float i = 4e10;
-    cout << i << endl;
-    i = 0b11000000000000000000000000000000;
-    cout << i << endl;
+    float i = 0b11000000000000000000000000000000;
+    printf("%f\n", i);
     return 0;
 }
 
